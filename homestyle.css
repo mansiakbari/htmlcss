@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(252, 216, 222);
+  font-family: monospace;
+  padding: 25px;
+}
+h1 {
+  color: rgb(250, 139, 154);
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* select all paragraph with diff class name */
+p {
+  margin-bottom: 10px;
+}
+/* for class selector */
+.first {
+  color: rgb(241, 6, 135);
+}
+/* for id selector */
+#form-page {
+  background-color: rgb(247, 223, 193);
+  border: 3px solid #444;
+  width: 400px;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* for select inline input and button */
+input,
+button {
+  padding: 10px;
+  font-size: 10px;
+}
+#form-page h2 {
+  color: chartreuse;
+}
